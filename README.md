@@ -2,7 +2,7 @@
 
 ### Check [Interactive Doc](https://webkul.github.io/micron/docs.html) on Website.
 ---
-
+something
 # Introduction
 Micron.JS is a micro interaction library which can be used to add Interactions to different DOM Elements. Micron.JS animates an element using CSS power and the interactive behaviours are controlled by JavaScript.
 
@@ -61,7 +61,7 @@ Micron Interactions defaults to ".45" seconds. Add the data-micron-duration="num
 Micron Interactions defaults to "ease-in-out". Add the data-micron-timing="@type" attribute to control the easing of the defined interaction.
 
 For now, `@typeonly` supports the easings mentioned below-
-  
+
 `linear`
 
 `ease-in`
@@ -82,7 +82,7 @@ Add `data-micron-bind="true"` & `data-micron-id="name"` to the defined triggerin
 **Example Code**
 
 ```html
-<a href="#" class="button" data-micron="bounce" data-micron-bind="true" data-micron-id="me">Label</a> 
+<a href="#" class="button" data-micron="bounce" data-micron-bind="true" data-micron-id="me">Label</a>
 <a href="#" class="button" id="me">Binded</a>
 ```
 
@@ -106,7 +106,7 @@ Pass an argument with `type of ease` to `timing()` method.
 function myFunc(){
     micron.getEle("#me").interaction("bounce").duration(".45").timing("ease-out");
  }
- 
+
 //Call Interaction
 myFunc();
 ```
@@ -157,7 +157,7 @@ Create a class with `.mjs-` prefix. Call the keyframe css animation inside it. U
  .mjs-custom{
     animation: custom-action;    
  }
- 
+
  @keyframes custom-action{
     from { . . . }    
     to { . . . }    
